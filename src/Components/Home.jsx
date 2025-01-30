@@ -155,4 +155,4 @@ function HomeCategoryList() {
   )
 }
 
-export default HomeCategoryList;
+export default Home;

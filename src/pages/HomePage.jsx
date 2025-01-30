@@ -1,7 +1,7 @@
 // src/pages/HomePage.jsx
 import React from 'react'
 import { Layout, Typography } from 'antd'
-import HomeCategoryList from '../components/HomeCategoryList';
+import Home from'../Components/Home';
 
 const { Header, Content } = Layout
 const { Title } = Typography
@@ -20,7 +20,7 @@ function HomePage() {
         <p style={{ textAlign: 'center' }}>
           Hover over a category card and click to see messages.
         </p>
-        <HomeCategoryList />
+        <Home/>
       </Content>
     </Layout>
   )

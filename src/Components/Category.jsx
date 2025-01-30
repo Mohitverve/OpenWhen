@@ -11,7 +11,7 @@ import {
 } from 'firebase/firestore'
 import { useAuth } from '../context/AuthContext'
 import { List, Button, Modal, Input, Typography } from 'antd'
-import MessageList from './MessageList'
+import Message from './Message'
 
 const { Title } = Typography
 
@@ -90,7 +90,7 @@ function CategoryList() {
       />
 
       {selectedCategoryId && (
-        <MessageList categoryId={selectedCategoryId} />
+        <Message categoryId={selectedCategoryId} />
       )}
 
       <Modal
@@ -109,4 +109,4 @@ function CategoryList() {
   )
 }
 
-export default CategoryList;
+export default Category;

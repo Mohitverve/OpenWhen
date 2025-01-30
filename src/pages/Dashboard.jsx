@@ -2,7 +2,7 @@
 import React from 'react'
 import { Layout, Button, Typography } from 'antd'
 import { useAuth } from '../context/AuthContext';
-import CategoryList from '../components/CategoryList';
+import Category from '../Components/Category';
 
 const { Header, Content } = Layout
 const { Text } = Typography
@@ -31,7 +31,7 @@ function Dashboard() {
         </div>
       </Header>
       <Content style={{ padding: '1rem' }}>
-        <CategoryList />
+        <Category />
       </Content>
     </Layout>
   )
