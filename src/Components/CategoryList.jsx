@@ -109,4 +109,4 @@ function CategoryList() {
   )
 }
 
-export default CategoryList
+export default CategoryList;

@@ -26,7 +26,7 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default HomePage;
 
 const styles = {
   layout: {

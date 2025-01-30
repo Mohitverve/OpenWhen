@@ -98,4 +98,4 @@ function MessageList({ categoryId }) {
   )
 }
 
-export default MessageList
+export default MessageList;
