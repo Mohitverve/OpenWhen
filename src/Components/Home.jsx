@@ -16,7 +16,7 @@ const GRADIENTS = [
   'linear-gradient(135deg, #24c6dc 0%, #514a9d 100%)',
 ]
 
-function HomeCategoryList() {
+function Home (){
   const [categories, setCategories] = useState([])
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedCategory, setSelectedCategory] = useState(null)
