@@ -1,8 +1,8 @@
 // src/pages/Dashboard.jsx
 import React from 'react'
 import { Layout, Button, Typography } from 'antd'
-import { useAuth } from '../context/AuthContext'
-import CategoryList from '../components/CategoryList'
+import { useAuth } from '../context/AuthContext';
+import CategoryList from '../components/CategoryList';
 
 const { Header, Content } = Layout
 const { Text } = Typography

@@ -1,7 +1,7 @@
 // src/pages/HomePage.jsx
 import React from 'react'
 import { Layout, Typography } from 'antd'
-import HomeCategoryList from '../components/HomeCategoryList'
+import HomeCategoryList from '../components/HomeCategoryList';
 
 const { Header, Content } = Layout
 const { Title } = Typography

@@ -1,7 +1,7 @@
 // src/pages/SignInPage.jsx
 import React, { useEffect } from 'react'
 import { Button, Typography } from 'antd'
-import { useAuth } from '../context/AuthContext'
+import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom'
 
 const { Title } = Typography
