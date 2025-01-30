@@ -15,7 +15,7 @@ import Message from './Message'
 
 const { Title } = Typography
 
-function CategoryList() {
+function Category() {
   const { currentUser } = useAuth()
   const [categories, setCategories] = useState([])
   const [selectedCategoryId, setSelectedCategoryId] = useState(null)

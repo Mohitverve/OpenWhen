@@ -14,7 +14,7 @@ import { List, Button, Modal, Input, Typography } from 'antd'
 
 const { Title } = Typography
 
-function MessageList({ categoryId }) {
+function Message({ categoryId }) {
   const { currentUser } = useAuth()
   const [messages, setMessages] = useState([])
   const [isModalOpen, setIsModalOpen] = useState(false)
